@@ -13,6 +13,17 @@
 		515599A61CA23BC800E9B63A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515599A41CA23BC800E9B63A /* Main.storyboard */; };
 		515599A81CA23BC800E9B63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515599A71CA23BC800E9B63A /* Assets.xcassets */; };
 		515599AB1CA23BC800E9B63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515599A91CA23BC800E9B63A /* LaunchScreen.storyboard */; };
+		515599B81CA23C8400E9B63A /* FanctoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599B71CA23C8400E9B63A /* FanctoryCell.m */; };
+		515599BC1CA23C9F00E9B63A /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599BA1CA23C9F00E9B63A /* BaseCell.m */; };
+		515599BD1CA23C9F00E9B63A /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 515599BB1CA23C9F00E9B63A /* BaseCell.xib */; };
+		515599C21CA23CB700E9B63A /* FistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 515599C01CA23CB700E9B63A /* FistCell.xib */; };
+		515599C71CA23CC600E9B63A /* SecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 515599C51CA23CC600E9B63A /* SecondCell.xib */; };
+		515599CA1CA23CDF00E9B63A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599C91CA23CDF00E9B63A /* BaseModel.m */; };
+		515599CD1CA23CF000E9B63A /* FistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599CC1CA23CF000E9B63A /* FistModel.m */; };
+		515599D01CA23CFE00E9B63A /* SecondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599CF1CA23CFE00E9B63A /* SecondModel.m */; };
+		515599D31CA23D4500E9B63A /* FistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599D21CA23D4500E9B63A /* FistCell.m */; };
+		515599D61CA23D6E00E9B63A /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 515599D51CA23D6E00E9B63A /* SecondCell.m */; };
+		515599D81CA24CA800E9B63A /* ModelPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 515599D71CA24CA800E9B63A /* ModelPlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,24 @@
 		515599A71CA23BC800E9B63A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515599AA1CA23BC800E9B63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		515599AC1CA23BC800E9B63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515599B61CA23C8400E9B63A /* FanctoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanctoryCell.h; sourceTree = "<group>"; };
+		515599B71CA23C8400E9B63A /* FanctoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanctoryCell.m; sourceTree = "<group>"; };
+		515599B91CA23C9F00E9B63A /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		515599BA1CA23C9F00E9B63A /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		515599BB1CA23C9F00E9B63A /* BaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		515599C01CA23CB700E9B63A /* FistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FistCell.xib; sourceTree = "<group>"; };
+		515599C51CA23CC600E9B63A /* SecondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondCell.xib; sourceTree = "<group>"; };
+		515599C81CA23CDF00E9B63A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		515599C91CA23CDF00E9B63A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		515599CB1CA23CF000E9B63A /* FistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FistModel.h; sourceTree = "<group>"; };
+		515599CC1CA23CF000E9B63A /* FistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FistModel.m; sourceTree = "<group>"; };
+		515599CE1CA23CFE00E9B63A /* SecondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondModel.h; sourceTree = "<group>"; };
+		515599CF1CA23CFE00E9B63A /* SecondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondModel.m; sourceTree = "<group>"; };
+		515599D11CA23D4500E9B63A /* FistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FistCell.h; sourceTree = "<group>"; };
+		515599D21CA23D4500E9B63A /* FistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FistCell.m; sourceTree = "<group>"; };
+		515599D41CA23D6E00E9B63A /* SecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
+		515599D51CA23D6E00E9B63A /* SecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCell.m; sourceTree = "<group>"; };
+		515599D71CA24CA800E9B63A /* ModelPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ModelPlist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,9 @@
 		5155999A1CA23BC800E9B63A /* 工厂CellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				515599B51CA23C5B00E9B63A /* HelpFanctory */,
+				515599B41CA23C4400E9B63A /* Cell */,
+				515599B21CA23C1D00E9B63A /* Model */,
 				5155999E1CA23BC800E9B63A /* AppDelegate.h */,
 				5155999F1CA23BC800E9B63A /* AppDelegate.m */,
 				515599A11CA23BC800E9B63A /* ViewController.h */,
@@ -77,6 +109,45 @@
 				5155999C1CA23BC800E9B63A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515599B21CA23C1D00E9B63A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				515599C81CA23CDF00E9B63A /* BaseModel.h */,
+				515599C91CA23CDF00E9B63A /* BaseModel.m */,
+				515599CB1CA23CF000E9B63A /* FistModel.h */,
+				515599CC1CA23CF000E9B63A /* FistModel.m */,
+				515599CE1CA23CFE00E9B63A /* SecondModel.h */,
+				515599CF1CA23CFE00E9B63A /* SecondModel.m */,
+				515599D71CA24CA800E9B63A /* ModelPlist.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		515599B41CA23C4400E9B63A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				515599B91CA23C9F00E9B63A /* BaseCell.h */,
+				515599BA1CA23C9F00E9B63A /* BaseCell.m */,
+				515599BB1CA23C9F00E9B63A /* BaseCell.xib */,
+				515599D11CA23D4500E9B63A /* FistCell.h */,
+				515599D21CA23D4500E9B63A /* FistCell.m */,
+				515599C01CA23CB700E9B63A /* FistCell.xib */,
+				515599D41CA23D6E00E9B63A /* SecondCell.h */,
+				515599D51CA23D6E00E9B63A /* SecondCell.m */,
+				515599C51CA23CC600E9B63A /* SecondCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		515599B51CA23C5B00E9B63A /* HelpFanctory */ = {
+			isa = PBXGroup;
+			children = (
+				515599B61CA23C8400E9B63A /* FanctoryCell.h */,
+				515599B71CA23C8400E9B63A /* FanctoryCell.m */,
+			);
+			path = HelpFanctory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +207,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515599D81CA24CA800E9B63A /* ModelPlist.plist in Resources */,
+				515599BD1CA23C9F00E9B63A /* BaseCell.xib in Resources */,
+				515599C71CA23CC600E9B63A /* SecondCell.xib in Resources */,
 				515599AB1CA23BC800E9B63A /* LaunchScreen.storyboard in Resources */,
+				515599C21CA23CB700E9B63A /* FistCell.xib in Resources */,
 				515599A81CA23BC800E9B63A /* Assets.xcassets in Resources */,
 				515599A61CA23BC800E9B63A /* Main.storyboard in Resources */,
 			);
@@ -151,7 +226,14 @@
 			files = (
 				515599A31CA23BC800E9B63A /* ViewController.m in Sources */,
 				515599A01CA23BC800E9B63A /* AppDelegate.m in Sources */,
+				515599CA1CA23CDF00E9B63A /* BaseModel.m in Sources */,
+				515599CD1CA23CF000E9B63A /* FistModel.m in Sources */,
+				515599D31CA23D4500E9B63A /* FistCell.m in Sources */,
+				515599D01CA23CFE00E9B63A /* SecondModel.m in Sources */,
+				515599BC1CA23C9F00E9B63A /* BaseCell.m in Sources */,
+				515599D61CA23D6E00E9B63A /* SecondCell.m in Sources */,
 				5155999D1CA23BC800E9B63A /* main.m in Sources */,
+				515599B81CA23C8400E9B63A /* FanctoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
